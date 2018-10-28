@@ -1,0 +1,30 @@
+导入包快捷键：alt + enter
+
+打包的过程：
+	1.File -> project structure -> artifacts -> 选择 “+” -> jar -> From modules with dependencies -> main class
+	2.特别注意把spark和scala的jar去掉
+	3.build -> build project
+
+返回值快捷键：ctrl + alt + v
+
+复制当前行： ctrl + d
+
+重写快捷键：ctrl + i
+
+快速重写父类方法：ctrl + o
+
+删除一行：ctrl + x
+
+自动补全代码：ctrl+shi
+
+提取方法：ctrl + alt + m
+
+异常处理快捷键：ctrl + alt + t
+
+alt + insert:生成构造器，get/set
+
+try catch快捷键：ctrl+alt+t
+
+列编辑：alt + 鼠标左键
+
+查看调用关系：Ctrl+Alt+H

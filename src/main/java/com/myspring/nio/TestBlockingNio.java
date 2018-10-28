@@ -38,6 +38,7 @@ public class TestBlockingNio {
         //1. 获取通道
         SocketChannel sChannel = SocketChannel.open(new InetSocketAddress("127.0.0.1", 9898));
 
+
         FileChannel inChannel = FileChannel.open(Paths.get("D:\\workspace\\study\\java8\\data\\1.jpg"), StandardOpenOption.READ);
 
         //2. 分配指定大小的缓冲区

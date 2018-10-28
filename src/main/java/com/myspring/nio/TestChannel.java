@@ -65,6 +65,7 @@ public class TestChannel {
 //        testCharset();
     }
 
+
     public static void testEncoderAndDecoder() throws IOException{
         Charset cs1 = Charset.forName("GBK");
         //获取编码器

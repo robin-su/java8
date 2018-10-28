@@ -98,6 +98,7 @@ public class TestBuffer {
         System.out.println(buf.limit());
         System.out.println(buf.capacity());
 
+
         System.out.println("------------------- get() --------------------");
         //4.利用get()读取缓冲区中的数据
         byte[] dst = new byte[buf.limit()];

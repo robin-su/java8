@@ -36,6 +36,7 @@ public class TestBlockingNIO2 {
             buf.clear();
         }
 
+
         inChannel.close();
         sChannel.close();
     }
