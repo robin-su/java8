@@ -4,6 +4,11 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.Pipe;
 
+/**
+ * Java NIO 管道是2个线程之间的单向数据连接。
+ Pipe有一个source通道和一个sink通道。数据会
+ 被写到sink通道，从source通道读取
+ */
 public class TestPipe {
 
 	public void test1() throws IOException{
